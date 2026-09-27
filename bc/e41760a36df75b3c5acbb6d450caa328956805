@@ -1,0 +1,54 @@
+test/hooks.test.ts
+  s_569b715fe994c0::t_a1315c4a3fcab1 193
+  s_569b715fe994c0::t_03549827e174bb 9-10,523-546
+docs/phase0.md
+  s_569b715fe994c0::t_f274d18628db7b 43
+skills/init/SKILL.md
+  s_569b715fe994c0::t_2bd1c8c7bd3f1f 3,93-94
+test/helpers.ts
+  s_569b715fe994c0::t_0ad392cc196bcd 16
+src/hooks/post.ts
+  s_569b715fe994c0::t_837bf1aa1e1bf4 6
+src/hooks/pre.ts
+  s_569b715fe994c0::t_837bf1aa1e1bf4 7
+  s_569b715fe994c0::t_2bd1c8c7bd3f1f 15,105
+README.md
+  s_569b715fe994c0::t_f274d18628db7b 100,118,160-164
+  s_569b715fe994c0::t_757139df85d869 101,114-115,119-120
+src/cli.ts
+  s_569b715fe994c0::t_76cf562445c8ef 182-195,198-220,502,554
+  s_569b715fe994c0::t_2bd1c8c7bd3f1f 8,12,196-197,555
+scripts/nsx.mjs
+  s_569b715fe994c0::t_9cfa2d65f417fd 341-362,364-369,371-372,375-376,389-393,1775,2392-2449,2509,2518,2534,3063-3097,3364,3410-3411,3441-3442
+.claude-plugin/plugin.json
+  s_569b715fe994c0::t_c4597e143c18a0 18
+src/hooks/session-start.ts
+  s_569b715fe994c0::t_2bd1c8c7bd3f1f 35,41
+  s_569b715fe994c0::t_837bf1aa1e1bf4 6
+skills/doctor/SKILL.md
+  s_569b715fe994c0::t_f274d18628db7b 20
+src/config.ts
+  s_569b715fe994c0::t_837bf1aa1e1bf4 123,129-157,159-164,166-167,170-173,189-190,193-198
+CHANGELOG.md
+  s_569b715fe994c0::t_f274d18628db7b 10-16
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "bce41760a36df75b3c5acbb6d450caa328956805",
+  "prompts": {},
+  "sessions": {
+    "s_569b715fe994c0": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "5f380d87-285e-4ea5-a01b-2ecdddf1357a",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Alberto Azambuja <alberto@bi-labs.co>",
+      "custom_attributes": {
+        "agent": "Antigravity",
+        "version": "2.01"
+      }
+    }
+  }
+}
