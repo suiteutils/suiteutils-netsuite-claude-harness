@@ -1,0 +1,39 @@
+src/results/profile.ts
+  s_569b715fe994c0::t_636835db83d9f6 181
+src/results/store.ts
+  s_569b715fe994c0::t_636835db83d9f6 46-52
+test/results.test.ts
+  s_569b715fe994c0::t_5e882d8a5ce02f 756-757
+  s_569b715fe994c0::t_ab3450147193cc 9,746-755,758
+  s_569b715fe994c0::t_c4ed6c8c27af23 759
+src/config.ts
+  s_569b715fe994c0::t_636835db83d9f6 136-137
+test/lint.test.ts
+  s_569b715fe994c0::t_ab3450147193cc 651-657
+scripts/nsx.mjs
+  s_569b715fe994c0::t_5e882d8a5ce02f 2021,2372-2376,3307-3314,3321-3323,3325-3327,3330-3332,3335-3337,5146-5149
+src/sql/lint.ts
+  s_569b715fe994c0::t_636835db83d9f6 474-483,490-494,496-498,501-503,506-508,546-547
+src/cli.ts
+  s_569b715fe994c0::t_636835db83d9f6 18,484-488
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "cb8110fc5229a864056601b943b79bf0351f09db",
+  "prompts": {},
+  "sessions": {
+    "s_569b715fe994c0": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "5f380d87-285e-4ea5-a01b-2ecdddf1357a",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Alberto Azambuja <alberto@bi-labs.co>",
+      "custom_attributes": {
+        "agent": "Antigravity",
+        "version": "2.01"
+      }
+    }
+  }
+}
