@@ -1,0 +1,25 @@
+.claude-plugin/plugin.json
+  s_243a226cfa216a::t_202cf14d2cb27d 9
+README.md
+  s_243a226cfa216a::t_0b22c5c2630845 11-16
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "afd8fdea5d6463d41ee50268a2081962f8f8907a",
+  "prompts": {},
+  "sessions": {
+    "s_243a226cfa216a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "daeffc2e-1d58-4bae-b53a-54a681ad0f80",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Alberto Azambuja <alberto@bi-labs.co>",
+      "custom_attributes": {
+        "agent": "Antigravity",
+        "version": "2.01"
+      }
+    }
+  }
+}
