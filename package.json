@@ -1,0 +1,27 @@
+{
+  "name": "suiteutils-netsuite-claude-harness",
+  "version": "0.5.1",
+  "description": "Claude Code plugin that makes the NetSuite AI Connector cheaper, faster, more correct and safer.",
+  "license": "UPL-1.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suiteutils/suiteutils-netsuite-claude-harness.git"
+  },
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "esbuild src/cli.ts --bundle --platform=node --target=node18 --format=esm --outfile=scripts/nsx.mjs --banner:js='#!/usr/bin/env node'",
+    "typecheck": "tsc --noEmit",
+    "test": "node --experimental-strip-types --no-warnings --test --test-reporter=spec test/*.test.ts",
+    "check": "npm run typecheck && npm test && npm run build",
+    "version": "node scripts/sync-version.mjs && npm run build && git add .claude-plugin/plugin.json src/config.ts skills/netsuite/SKILL.md scripts/nsx.mjs"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.2",
+    "esbuild": "^0.28.2",
+    "typescript": "^7.0.2"
+  }
+}

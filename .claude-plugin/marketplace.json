@@ -1,0 +1,12 @@
+{
+  "name": "suiteutils",
+  "owner": { "name": "Suite Utils", "url": "https://suiteutils.com" },
+  "description": "NetSuite tooling for Claude Code from Suite Utils",
+  "plugins": [
+    {
+      "name": "su-ns-harness",
+      "source": "./",
+      "description": "Cache, result shaping, SuiteQL checks and write safety around the NetSuite AI Connector."
+    }
+  ]
+}

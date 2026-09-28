@@ -1,0 +1,4 @@
+node_modules/
+.DS_Store
+# NetSuite exports never belong in git
+exports/

@@ -1,0 +1,20 @@
+{
+  "success": true,
+  "metadata": {
+    "type": "object",
+    "$schema": "http://json-schema.org/draft-06/hyper-schema#",
+    "properties": {
+      "id": { "title": "Internal ID", "type": "integer", "nullable": true },
+      "name": { "title": "Name", "type": "string", "description": "A long help text that belongs in the raw payload, not in the index.", "nullable": true },
+      "fullName": { "title": "Full Name", "type": "string", "nullable": true },
+      "externalId": { "title": "External ID", "type": "string", "nullable": true },
+      "isInactive": { "title": "Inactive", "type": "boolean", "description": "Another long help text." },
+      "includeChildren": { "title": "Include Children", "type": "boolean" },
+      "lastModifiedDate": { "title": "Last Modified Date", "type": "string", "format": "date-time", "nullable": true },
+      "parent": { "title": "Parent Department", "type": "object", "nullable": true, "x-n:joinable": true, "x-n:recordType": "department" },
+      "subsidiary": { "title": "Subsidiaries", "type": "object", "nullable": true },
+      "custrecord_example_flag": { "title": "Example custom flag", "type": "boolean" }
+    }
+  },
+  "message": "Successfully retrieved metadata for department endpoint: /services/rest/query/v1/suiteql/metadata-catalog/department"
+}

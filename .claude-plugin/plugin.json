@@ -1,0 +1,19 @@
+{
+  "name": "su-ns-harness",
+  "version": "0.5.1",
+  "description": "Makes the NetSuite AI Connector cheaper, faster, more correct and safer in Claude Code: local metadata cache, large results kept out of context, SuiteQL checks, error recovery and read-only-by-default writes.",
+  "author": {
+    "name": "Suite Utils",
+    "url": "https://suiteutils.com"
+  },
+  "homepage": "https://suiteutils.com/open-source/netsuite-claude-harness/",
+  "repository": "https://github.com/suiteutils/suiteutils-netsuite-claude-harness",
+  "license": "UPL-1.0",
+  "keywords": [
+    "netsuite",
+    "suiteql",
+    "erp",
+    "finance",
+    "mcp"
+  ]
+}

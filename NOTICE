@@ -1,0 +1,25 @@
+suiteutils-netsuite-claude-harness
+Copyright (c) 2026 Suite Utils (https://suiteutils.com)
+
+This product includes material derived from the NetSuite agent skill
+"netsuite-ai-connector-instructions" in oracle/netsuite-suitecloud-sdk
+(packages/agent-skills), Copyright (c) 2019, 2023 Oracle and/or its affiliates,
+licensed under the Universal Permissive License (UPL), Version 1.0
+(https://oss.oracle.com/licenses/upl/).
+
+Derived files: skills/netsuite/SKILL.md and skills/netsuite/references/*.md.
+
+Changes by Suite Utils from the original: cache-first lookups (nsx) instead of calling catalog
+tools every time; large results kept out of context; count -> aggregate -> detail escalation;
+ROWNUM replaced by ORDER BY ... FETCH FIRST (the original put it next to GROUP BY/ORDER BY, which
+truncates before aggregating/sorting, and an outer ROWNUM gives the same wrong result on NetSuite,
+live-verified 2026-09-27); recordtype vs type values corrected; approvalstatus only where the
+account populates it; budget-vs-actual fan-out fixed; GL, multi-subsidiary and budget
+templates grouped per subsidiary (base currencies differ) with a primary-book filter; AR aging
+handles missing due dates and credit memos; sequential
+calls; Source line; removed "show your reasoning throughout", the artifact-at-10-rows rule and the
+confirm-before-any-SuiteQL rule (read-only SuiteQL is checked by the su-ns-harness guard).
+
+suiteutils-netsuite-claude-harness is an independent project. It is not affiliated with, sponsored by or
+endorsed by Oracle or NetSuite. "NetSuite" and "Oracle" are trademarks of Oracle
+and/or its affiliates.

@@ -1,0 +1,29 @@
+{
+  "description": "su-ns-harness: NetSuite context at session start, guard before ns_* calls, result shaping and error recovery after them.",
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|resume|clear|compact",
+        "hooks": [{ "type": "command", "command": "node", "args": ["${CLAUDE_PLUGIN_ROOT}/scripts/nsx.mjs", "hook", "session-start"], "timeout": 10 }]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "mcp__.*__ns_.*",
+        "hooks": [{ "type": "command", "command": "node", "args": ["${CLAUDE_PLUGIN_ROOT}/scripts/nsx.mjs", "hook", "pre"], "timeout": 10 }]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "mcp__.*__ns_.*",
+        "hooks": [{ "type": "command", "command": "node", "args": ["${CLAUDE_PLUGIN_ROOT}/scripts/nsx.mjs", "hook", "post"], "timeout": 30 }]
+      }
+    ],
+    "PostToolUseFailure": [
+      {
+        "matcher": "mcp__.*__ns_.*",
+        "hooks": [{ "type": "command", "command": "node", "args": ["${CLAUDE_PLUGIN_ROOT}/scripts/nsx.mjs", "hook", "failure"], "timeout": 10 }]
+      }
+    ]
+  }
+}
