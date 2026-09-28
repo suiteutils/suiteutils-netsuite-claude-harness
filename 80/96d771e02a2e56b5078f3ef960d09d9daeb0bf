@@ -1,0 +1,27 @@
+.github/workflows/ci.yml
+  s_243a226cfa216a::t_6ffe6ff36c19bf 19
+.npmrc
+  s_243a226cfa216a::t_ab4f53e3ad0cac 1-4
+README.md
+  s_243a226cfa216a::t_1a5fa503c1f448 274,280-282
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "8096d771e02a2e56b5078f3ef960d09d9daeb0bf",
+  "prompts": {},
+  "sessions": {
+    "s_243a226cfa216a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "daeffc2e-1d58-4bae-b53a-54a681ad0f80",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Alberto Azambuja <alberto@bi-labs.co>",
+      "custom_attributes": {
+        "version": "2.01",
+        "agent": "Antigravity"
+      }
+    }
+  }
+}
