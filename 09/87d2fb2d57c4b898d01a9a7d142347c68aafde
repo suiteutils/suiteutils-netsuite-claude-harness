@@ -1,0 +1,23 @@
+README.md
+  s_243a226cfa216a::t_63c86480ef2e81 29
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "0987d2fb2d57c4b898d01a9a7d142347c68aafde",
+  "prompts": {},
+  "sessions": {
+    "s_243a226cfa216a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "daeffc2e-1d58-4bae-b53a-54a681ad0f80",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Alberto Azambuja <alberto@bi-labs.co>",
+      "custom_attributes": {
+        "version": "2.01",
+        "agent": "Antigravity"
+      }
+    }
+  }
+}
