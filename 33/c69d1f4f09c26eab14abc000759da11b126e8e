@@ -1,0 +1,217 @@
+.claude-plugin/marketplace.json
+  s_24f028b8c2e25d::t_706289377875ae 1-12
+.claude-plugin/plugin.json
+  s_569b715fe994c0::t_9d44c60efd5a1c 1-19
+.github/workflows/ci.yml
+  s_243a226cfa216a::t_06ece01ddc35b9 1-38
+.gitignore
+  s_4ccd323ab761a3::t_684d897a19b65a 1-4
+.npmrc
+  s_243a226cfa216a::t_572691a906a8da 1-4
+AGENTS.md
+  s_569b715fe994c0::t_b8196ee829c62c 1-108
+CHANGELOG.md
+  s_569b715fe994c0::t_a9903f9052989a 1-33
+CLAUDE.md
+  s_569b715fe994c0::t_c2f79226e052c9 1
+LICENSE
+  s_24f028b8c2e25d::t_c7efd5322acf0c 1-36
+NOTICE
+  s_569b715fe994c0::t_321f84237b2c98 1-25
+README.md
+  s_569b715fe994c0::t_b0657fccf44e67 1-311
+agents/ns-explorer.md
+  s_569b715fe994c0::t_879d2e7831d95d 1-32
+hooks/hooks.json
+  s_24f028b8c2e25d::t_ef1c83e548b53a 1-29
+package-lock.json
+  s_569b715fe994c0::t_afce88dc8cad02 1-897
+package.json
+  s_569b715fe994c0::t_3f118b6fe170c8 1-27
+scripts/nsx.mjs
+  s_569b715fe994c0::t_44be5e9c575fc3 1-7141
+skills/doctor/SKILL.md
+  s_569b715fe994c0::t_2b0654bac19b0e 1-43
+skills/init/SKILL.md
+  s_569b715fe994c0::t_1af5186aa23957 1-147
+skills/netsuite/SKILL.md
+  s_569b715fe994c0::t_1915564542bb97 1-181
+skills/netsuite/references/domain.md
+  s_569b715fe994c0::t_163fe406c0dde5 1-69
+skills/netsuite/references/errors.md
+  s_569b715fe994c0::t_306e83bd3b3198 1-51
+skills/netsuite/references/suiteql.md
+  s_569b715fe994c0::t_ded69dc9f975a0 1-356
+skills/netsuite/references/tools.md
+  s_569b715fe994c0::t_159366c05f7df0 1-72
+skills/refresh/SKILL.md
+  s_569b715fe994c0::t_7c5c9d678e54bc 1-78
+src/audit.ts
+  s_569b715fe994c0::t_c1c39a24b2cd81 1-66
+src/cache/catalog.ts
+  s_569b715fe994c0::t_55bc817d58a7ce 1-351
+src/cache/probes.ts
+  s_569b715fe994c0::t_8a3a606e403f28 1-94
+src/cache/profile.ts
+  s_569b715fe994c0::t_001bfcccfdf674 1-511
+src/cache/store.ts
+  s_569b715fe994c0::t_3d714a40e39ad3 1-264
+src/cli.ts
+  s_569b715fe994c0::t_e118e088c5313b 1-1311
+src/config.ts
+  s_569b715fe994c0::t_e9367998e303eb 1-567
+src/errors.ts
+  s_569b715fe994c0::t_0ee2bb95815730 1-210
+src/hooks/io.ts
+  s_569b715fe994c0::t_63596ee9a34e47 1-164
+src/hooks/post.ts
+  s_569b715fe994c0::t_e5a3500428e08c 1-369
+src/hooks/pre.ts
+  s_569b715fe994c0::t_e617e1578dce5d 1-399
+src/hooks/session-start.ts
+  s_569b715fe994c0::t_ce87515284e9f1 1-84
+src/mcp.ts
+  s_569b715fe994c0::t_50614761d41039 1-176
+src/preview.ts
+  s_569b715fe994c0::t_6b5ed8c7c1f5f4 1-154
+src/results/engine.ts
+  s_569b715fe994c0::t_9b882bcb86ecf7 1-921
+src/results/profile.ts
+  s_569b715fe994c0::t_c537ac80cadcb2 1-410
+src/results/store.ts
+  s_569b715fe994c0::t_645ecbb8dd9184 1-401
+src/results/summary.ts
+  s_569b715fe994c0::t_94c84fc2d4291e 1-444
+src/rows.ts
+  s_569b715fe994c0::t_155f0b8e68482e 1-491
+src/session.ts
+  s_569b715fe994c0::t_cd3f3a2bc51c55 1-187
+src/sql/lint.ts
+  s_569b715fe994c0::t_6900642cfa544e 1-1529
+src/util.ts
+  s_569b715fe994c0::t_d24044f455efd8 1-170
+test/cli.test.ts
+  s_569b715fe994c0::t_9e1c0f5f54c85a 1-391
+test/e2e/run.sh
+  s_24f028b8c2e25d::t_9eb2f5806e4094 1-50
+test/fixtures/README.md
+  s_569b715fe994c0::t_85136b75a3e046 1-61
+test/fixtures/periods.json
+  s_24f028b8c2e25d::t_490798c14cd30e 1
+test/fixtures/report_ap_aging.json
+  s_569b715fe994c0::t_6767c1c701fc0e 1
+test/fixtures/report_income_statement.json
+  s_569b715fe994c0::t_432a617d073f15 1
+test/fixtures/report_income_statement_month.json
+  s_569b715fe994c0::t_19b275b035a446 1
+test/fixtures/report_income_statement_quarter.json
+  s_569b715fe994c0::t_1542ca4a9c41ee 1
+test/fixtures/reports_list.json
+  s_569b715fe994c0::t_a32d8934758438 1
+test/fixtures/saved_search_accounts_listid.json
+  s_569b715fe994c0::t_08ba93213ceced 1-6
+test/fixtures/saved_search_bills_datetime.json
+  s_569b715fe994c0::t_a0a5b912c74634 1
+test/fixtures/saved_search_list_blanks.json
+  s_569b715fe994c0::t_63206b230029bf 1
+test/fixtures/saved_search_open_bills.json
+  s_569b715fe994c0::t_5d73806f6961af 1
+test/fixtures/searches_list.json
+  s_569b715fe994c0::t_1b5022f769ab79 1
+test/fixtures/subsidiaries.json
+  s_569b715fe994c0::t_02b6ef2831e2eb 1
+test/fixtures/suiteql_customers_currency.json
+  s_569b715fe994c0::t_875d65f540712c 1
+test/fixtures/suiteql_invoices_mixed_currency.json
+  s_569b715fe994c0::t_27764d59a2bb71 1
+test/fixtures/suiteql_invoices_page.json
+  s_569b715fe994c0::t_becd2b9baa7968 1
+test/fixtures/suiteql_metadata_transaction.json
+  s_24f028b8c2e25d::t_2bf2614556fe3d 1
+test/fuzz.test.ts
+  s_569b715fe994c0::t_b68712ba52e62a 1-102
+test/helpers.ts
+  s_569b715fe994c0::t_e1a7e68f69a25f 1-47
+test/hooks.test.ts
+  s_569b715fe994c0::t_1d7e93a706911d 1-2283
+test/lint.test.ts
+  s_569b715fe994c0::t_4d74ffe7372230 1-930
+test/parsers.test.ts
+  s_569b715fe994c0::t_43c8656e08af66 1-229
+test/results.test.ts
+  s_569b715fe994c0::t_e0f28a0241579a 1-1278
+test/skills.test.ts
+  s_569b715fe994c0::t_dcf76453654d4a 1-72
+test/store.test.ts
+  s_569b715fe994c0::t_946dc25f073345 1-90
+tsconfig.json
+  s_24f028b8c2e25d::t_a6c4c92ba81936 1-15
+scripts/sync-version.mjs
+  s_569b715fe994c0::t_9f5cb39537b8c4 1-21
+src/results/xlsx.ts
+  s_569b715fe994c0::t_f62a568314fa01 1-111
+src/sql/tokenize.ts
+  s_569b715fe994c0::t_31d625a3db4e28 1-163
+test/e2e/fake-netsuite-mcp.mjs
+  s_569b715fe994c0::t_38f36f75b510df 1-63
+test/fixtures/fields_envelope_department.json
+  s_569b715fe994c0::t_5246529efdfca3 1-20
+test/version.test.ts
+  s_569b715fe994c0::t_e25a6cad0220dd 1-19
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "33c69d1f4f09c26eab14abc000759da11b126e8e",
+  "prompts": {},
+  "sessions": {
+    "s_243a226cfa216a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "daeffc2e-1d58-4bae-b53a-54a681ad0f80",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Alberto Azambuja <alberto@bi-labs.co>",
+      "custom_attributes": {
+        "agent": "Antigravity",
+        "version": "2.01"
+      }
+    },
+    "s_24f028b8c2e25d": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b08ada9d-5ab8-41b0-85c5-d72d3d664b03",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Alberto Azambuja <alberto@bi-labs.co>",
+      "custom_attributes": {
+        "agent": "Antigravity",
+        "version": "2.01"
+      }
+    },
+    "s_4ccd323ab761a3": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "7d9f365a-d9ac-4a86-a940-4eeaff10cf6b",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Alberto Azambuja <alberto@bi-labs.co>",
+      "custom_attributes": {
+        "agent": "Antigravity",
+        "version": "2.01"
+      }
+    },
+    "s_569b715fe994c0": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "5f380d87-285e-4ea5-a01b-2ecdddf1357a",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Alberto Azambuja <alberto@bi-labs.co>",
+      "custom_attributes": {
+        "agent": "Antigravity",
+        "version": "2.01"
+      }
+    }
+  }
+}
